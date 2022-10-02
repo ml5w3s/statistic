@@ -1,0 +1,78 @@
+*{
+	margin:8px;    /* resetar margens do navegador */
+	padding:8px;   /*resetar espaços */
+}
+body{
+        background-image: linear-gradient(to right, navy , purple);
+}
+#flex-container {
+    display: flex;
+}
+#banner{
+    height:200px; /* altura autmomática para preenchimento de conteúdo */
+}
+#frente{
+    width:800px; /*largura do bloco de conteúdo */
+    height:500px; /* altura autmomática para preenchimento de conteúdo */
+    margin-top: 35px;
+    padding:2px 2px 2px 2px; /* margens internas do bloco - superior, direito, inferior e esquerdo 20px. */
+}
+.logo{
+    width:200px; /*largura do bloco de conteúdo */
+    height:150px;
+    border: 3px solid gray;
+    margin-left:33px;
+}
+.result{
+    width:0 auto; /*largura do bloco de conteúdo */
+    height:570px; /* altura autmomática para preenchimento de conteúdo */
+    padding:50px 2px 2px 2px; /* margens internas do bloco - superior, direito, inferior e esquerdo 20px. */
+    background-image: linear-gradient(to right, navy , purple);
+    border-radius:15px; /* arrendondamento de bordas do box */
+    box-shadow:2px 4px 8px black; /* sombra do box - tamanho, deslocamento, enevoamente e cor */    
+}
+.box{  /* div id - sempre idenficada pelo símbolo "#" */
+    width:300px; /*largura do bloco de conteúdo */
+    height:400px; /* altura autmomática para preenchimento de conteúdo */
+    padding:2px 2px 2px 2px; /* margens internas do bloco - superior, direito, inferior e esquerdo 20px. */
+    background-color:white; /* cor do box */
+    border-radius:15px; /* arrendondamento de bordas do box */
+    box-shadow:2px 4px 8px black; /* sombra do box - tamanho, deslocamento, enevoamente e cor */
+}
+.img{
+    width:0 auto; /*largura do bloco de conteúdo */
+    height:570px; /* altura autmomática para preenchimento de conteúdo */
+    padding:2px 2px 2px 2px; /* margens internas do bloco - superior, direito, inferior e esquerdo 20px. */
+    background-image: linear-gradient(to right, purple, navy , purple);
+    border-radius:15px; /* arrendondamento de bordas do box */
+    box-shadow:2px 4px 8px black; /* sombra do box - tamanho, deslocamento, enevoamente e cor */    
+}
+.titulo{  /* div id - sempre idenficada pelo símbolo "#" */
+    height:30x; /* altura autmomática para preenchimento de conteúdo */
+    padding:5px 5px 5px 5px; /* margens internas do bloco - superior, direito, inferior e esquerdo 20px. */
+    background-image: linear-gradient(to right, purple, navy );
+    border-radius:15px; /* arrendondamento de bordas do box */
+    box-shadow:2px 4px 8px black; /* sombra do box - tamanho, deslocamento, enevoamente e cor */
+}
+h2{
+    color:#ffffff
+}
+h3{
+    color:#ffffff
+}
+a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(119, 119, 255);
+}
+a:visited{
+    color:grey;
+}
+a:hover{
+    color:cornflowerblue;
+}
+td{
+    width: 500px;
+    background-color:#f7f7f7;
+    box-shadow:1px 2px 4px gray;
+}
